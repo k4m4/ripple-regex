@@ -28,7 +28,6 @@ test('Non-exact XRP addresses', t => {
 	for (const x of fixtures) {
 		t.is((m().exec(`foo ${x} bar`) || [])[0], x);
 	}
-	
 	t.is(m().exec('ripple:rG2ZJRab3EGBmpoxUyiF2guB3GoQTwMGEC')[0], 'rG2ZJRab3EGBmpoxUyiF2guB3GoQTwMGEC');
 });
 
