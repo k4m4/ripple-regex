@@ -1,6 +1,6 @@
 {
   "name": "ripple-regex",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Regular expression for matching Ripple (XRP) addresses.",
   "license": "MIT",
   "repository": "k4m4/ripple-regex",
