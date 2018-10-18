@@ -1,5 +1,5 @@
 'use strict';
-const re = 'r[0-9a-zA-Z]{33}';
+const re = '[1-9a-km-zA-HJ-NP-Z]{25,35}';
 
 module.exports = opts => {
 	opts = opts || {};
