@@ -5,7 +5,7 @@ declare namespace rippleRegex {
 		@default false
 		*/
 		readonly exact?: boolean;
-    }
+	}
 }
 
 /**
